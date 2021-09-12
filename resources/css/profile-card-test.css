@@ -1,0 +1,122 @@
+body{
+    background: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+}
+
+.caption-bottom {
+    bottom: 0;
+    position: fixed;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.card{
+    width: 315px;
+    height: 340px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 36%;
+    width: 6%;
+    margin-left: 110px;
+}
+
+.pattern-card {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.name-age{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.name-age > .name {
+    padding-right: 8px;
+    font-weight: 700;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    color: hsl(0, 0%, 59%);
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.name-age > .age {
+    color: hsl(0, 0%, 59%);
+}
+
+hr {
+    border: 1px thin hsl(0, 0%, 59%);
+}
+
+.stats > .stats-number{
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: hsl(229, 23%, 23%);
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+
+.stats > .stats-caption{
+    display: flex;
+    flex-direction: row;
+    color: hsl(0, 0%, 59%);
+    font-size: 10px;       
+}
+
+.caption-followers{
+    padding-inline-start: 48px;
+    padding-inline-end: 55px;
+}
+
+.caption-likes{
+    padding-inline-end: 62px;
+}
+
+.pattern-top{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    top: -70%;
+    left: -24%;
+    width: 70%;
+    height: auto;
+}
+
+.pattern-bottom{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column-reverse;
+    bottom: -100%;
+    right: -16%;
+    width: 70%;
+    height: auto;
+}
