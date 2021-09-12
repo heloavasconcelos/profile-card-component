@@ -1,6 +1,6 @@
 # Profile card component 👋
 
-![screenshot](E:\GitHub\profile-card-component\resources\screenshot\screenshot.png)
+![screenshot](resources/screenshot/screenshot.png)
 
 ## 
 
