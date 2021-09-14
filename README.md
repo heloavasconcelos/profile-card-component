@@ -1,6 +1,6 @@
 # Profile card component 👋
 
-Click [here](https://heloavasconcelos.github.io/profile-card-component/) to see the result.
+✔ Click [here](https://heloavasconcelos.github.io/profile-card-component/) to see the result.
 
 ## 
 
