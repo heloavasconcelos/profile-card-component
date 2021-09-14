@@ -1,6 +1,6 @@
 # Profile card component 👋
 
-![screenshot](resources/screenshot/screenshot.png)
+Click ![here](https://heloavasconcelos.github.io/profile-card-component/) to see the result.
 
 ## 
 
